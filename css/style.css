@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 :root {
-    --primary-color: #047aed;
-    --secondary-color: #1c3fa8;
-    --dark-color: #002240;
-    --light-color: #f4f4f4;
+    --primary-color: #FD7F20;
+    --secondary-color: #FC2E20;
+    --light-color: #FDB750;
+    --dark-color: #010100;
     --success-color: #5cb85c;
     --error-color: #d9534f;
     
@@ -17,7 +17,7 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     color: #333;
     line-height: 1.6;
 }
@@ -61,25 +61,41 @@ code, pre {
 .navbar {
     background-color: var(--primary-color);
     color: #fff;
-    height: 70px;
+    height: 80px;
 }
 
 .navbar ul {
     display: flex;
 }
 
-.navbar a {
+.navbar .name a {
     color: #fff;
-    padding: 10px;
-    margin: 0 5px;
+    font-size: 40px;
 }
 
-.navbar a:hover {
+.navbar nav a {
+    color: #fff;
+    padding: 10px;
+    margin: 20px 5px;
+    font-size: 18px;
+}
+
+.navbar nav a:hover {
     border-bottom: 2px #fff solid;
 }
 
 .navbar .flex {
     justify-content: space-between;
+}
+
+/* About */
+.about .container{
+    height:400px;
+}
+
+.about img{
+    width: 100px;
+    justify-self: right;
 }
 
 /* Showcase */
