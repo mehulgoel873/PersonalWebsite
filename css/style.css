@@ -21,7 +21,7 @@ nav {
 
 nav .logo-container {
     margin-right: auto; /* Set margin-right to auto to push the nav links to the right */
-    margin-left: 20px;
+    margin-left: 60px;
 }
 
 nav .logo-container img {
@@ -32,7 +32,7 @@ nav .nav-links {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 60px;
 }
     
 nav .nav-links a {
@@ -85,11 +85,11 @@ nav .nav-links a:last-child:hover::before {
 /* Styling for the welcome text and image */
 .welcome-section {
     text-align: center;
-    background: url('../Images/Mountain_Range.png'), #32373B;
+    background: url('../Images/Mountain_Range.webp'), #32373B;
     background-repeat: no-repeat;
     background-size: cover;
-    padding:200px 0;
     background-blend-mode: multiply;
+    padding:200px 0;
     height: 100%;
 }
 .image-wrapper {
@@ -102,16 +102,16 @@ nav .nav-links a:last-child:hover::before {
 .image-wrapper img {
     display: block;
     max-width: 100%;
-    height: 100%;
+    height: 80%;
 }
 
 .text-wrapper {
     display: inline-block;
-    width: 40%;
+    width: 60%;
     vertical-align: middle;
     max-width: 800px;
     margin: 0 auto;
-    height: 100%;
+    height: 80%;
     color: #fff;
 }
 .text-wrapper h1 {
