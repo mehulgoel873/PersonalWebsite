@@ -3,11 +3,17 @@ h1 {
 }
 
 h3 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
 }
 
 p, a{
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 #orange {
