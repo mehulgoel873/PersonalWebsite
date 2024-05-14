@@ -146,7 +146,6 @@ nav .nav-links a:last-child:hover::before {
 }
 
 .typing-container .text{
-    font-family: 'Roboto Mono', monospace;
     font-size: 2rem;
 }
 
