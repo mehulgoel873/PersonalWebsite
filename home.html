@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+	
 	<!-- Navigation bar -->
 	<nav>
         <div class="logo-container">
@@ -22,35 +23,30 @@
           <a href="mailto:mehulgoel873@gmail.com">Email Me</a>
         </div>
     </nav>
-      
-
-	<!-- Home page -->
-	<section class="welcome-section">
-		<div class="image-wrapper">
-			<img src="Images\Person-Coding.png" alt="Mehul Goel">
-		</div>
-		<div class="text-wrapper">
-			<h1>Hello, <br>I'm Mehul.</h1>
-		</div>
-	</section>
-
-	<!-- About Me section -->
-	<section class="about-section">
-		<div class = "text-wrapper">
-			<p>I'm an undergraduate freshman within the School of Computer Science at Carnegie Mellon University. I am always looking at new ways to develop my skills in CS and life in general. 
-				In my free time, I am constantly working with robots, playing board games with my friends, or building new hobbies. I am always interested in trying new things, so feel free 
-			to contact me at any time with fresh opportunities!</p>
-			<div class = "Image Button">
-				<img src="Images/Icons/pdf.png" alt = "PDF Icon">
-				<a href="files/Mehul Goel - Resume.pdf">My Resume</a>
+	<section class="welcome-section" id = "particles-js">
+		<div class = "container">
+			<div class="image-wrapper">
+				<img src="Images\profile.jpg" alt="Mehul Goel">
 			</div>
-			<a href="#">Learn more about me</a> <!-- TODO: Fix this section to include a full blown about page at one point-->
+			<div class="text-wrapper" >
+				<h3>Hello I'm</h3>
+				<h1 id = "orange">Mehul Goel</h1>
+				<p>Tinkerer. Developer. Problem Solver.</p>
+				<div class="nav-links">
+					<a href="mailto:mehulgoel873@gmail.com"><img src="Images/socialMedia/png/004-apple.png"></a>
+					<a href="https://github.com/mehulgoel873"><img src="Images/socialMedia/png/005-github.png"></a>
+					<a href="https://www.linkedin.com/in/mehulgoel873/"><img src="Images/socialMedia/png/002-linkedin.png"></a>
+					<a href="https://www.youtube.com/@mehulgoel873"><img src="Images/socialMedia/png/001-youtube.png"></a>
+					<a href="https://open.spotify.com/user/vypqzeoi6m2jjrkrrwg0wgucg?si=a3f991f43bde4f6b"><img src="Images/socialMedia/png/003-spotify.png"></a>
+					</div>
+			</div>
 		</div>
 	</section>
+	<!-- Home page -->
 
-	<!-- Projects section -->
-	<section id="projects">
-		<!-- Add content for the Projects section here -->
-	</section>
+
+	<script src="node_modules/particles.js/particles.js"></script>
+	<script src="app.js"></script>
+	
 </body>
 </html>
