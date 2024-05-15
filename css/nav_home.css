@@ -163,6 +163,7 @@ nav .nav-links a:last-child:hover::before {
     left: 0;
     right: 0;
     background-color: #32373B;
+    height: 2.25rem;
 }
 
 .typing-container .text_cursor{
