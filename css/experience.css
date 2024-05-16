@@ -22,6 +22,10 @@
 	font: inherit;
 }
 
+.experience .section_header h1 {
+	color: var(--navy-blue);
+}
+
 .experience a {
 	color: inherit;
 }
