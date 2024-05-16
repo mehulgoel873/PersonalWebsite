@@ -11,7 +11,8 @@ h3 {
 
 
 
-p, a{
+p,
+a {
   font-family: "Source Code Pro", monospace;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -24,27 +25,30 @@ p, a{
 
 
 :root {
-	--c-grey-100: #f4f6f8;
-	--c-grey-200: #e3e3e3;
-	--c-grey-300: #b2b2b2;
-	--c-grey-400: #7b7b7b;
-	--c-grey-500: #3d3d3d;
+  --c-grey-100: #f4f6f8;
+  --c-grey-200: #e3e3e3;
+  --c-grey-300: #b2b2b2;
+  --c-grey-400: #7b7b7b;
+  --c-grey-500: #3d3d3d;
 
-	--c-blue-500: #688afd;
+  --c-blue-500: #688afd;
 
   --navy-blue-light: #81b3d3;
   --navy-blue: #5889a8;
 
   --background: #32373b;
-  --offwhite: #DEE1E3; /*filter: invert(100%) sepia(1%) saturate(4960%) hue-rotate(173deg) brightness(89%) contrast(101%); */
-  
-  --orange-light: #ff9e44; /*filter: invert(60%) sepia(64%) saturate(494%) hue-rotate(342deg) brightness(102%) contrast(101%);*/
-  --orange: #ff7f2d; /* filter: invert(55%) sepia(73%) saturate(1298%) hue-rotate(339deg) brightness(101%) contrast(102%); */
+  --offwhite: #DEE1E3;
+  /*filter: invert(100%) sepia(1%) saturate(4960%) hue-rotate(173deg) brightness(89%) contrast(101%); */
+
+  --orange-light: #ff9e44;
+  /*filter: invert(60%) sepia(64%) saturate(494%) hue-rotate(342deg) brightness(102%) contrast(101%);*/
+  --orange: #ff7f2d;
+  /* filter: invert(55%) sepia(73%) saturate(1298%) hue-rotate(339deg) brightness(101%) contrast(102%); */
 }
 
 ::-webkit-scrollbar {
   position: fixed;
-  width: 1vw;
+  width: 16px;
 }
 
 ::-webkit-scrollbar-track {
@@ -66,11 +70,12 @@ p, a{
   border: 6px solid transparent;
   background-clip: content-box;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background-color: #a8bbbf;
 }
 
-.section_header h1{
+.section_header h1 {
   font-size: 4rem;
   font-weight: 900;
   font-style: normal;
