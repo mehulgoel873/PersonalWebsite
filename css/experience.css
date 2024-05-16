@@ -17,6 +17,9 @@
 	min-height: 100vh;
 	font-family: "Outfit", sans-serif;
 	padding-bottom: 20vh;
+	&:hover .section_header h1 {
+		color: var(--orange-light);
+	}
 }
 
 .experience button,

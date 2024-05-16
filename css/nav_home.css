@@ -99,7 +99,7 @@ nav .nav-links a:last-child:hover::before {
 /* Styling for the welcome text and image */
 .welcome-section {
     text-align: center;
-    padding: 6vh 0vh;
+    padding: 6vh 0vh 0vh 0vh;
     width: 100%;
     height: max-content;
 }
@@ -212,7 +212,7 @@ nav .nav-links a:last-child:hover::before {
     position: absolute;
     left: 0; 
     right: 0; 
-    padding: 13vh;
+    padding: 13vh 13vh 0vh 13vh;
     height: 82vh;
     margin-left: auto;
     margin-right: auto;
