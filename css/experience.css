@@ -7,6 +7,10 @@
 }
 
 
+#experience {
+	scroll-behavior: smooth;
+}
+
 /* Some basic CSS overrides */
 .experience {
 	line-height: 1.5;
