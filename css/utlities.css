@@ -29,4 +29,13 @@ p, a{
 	--c-grey-500: #3d3d3d;
 
 	--c-blue-500: #688afd;
+
+  --navy-blue-light: #81b3d3;
+  --navy-blue: #5889a8;
+
+  --background: #32373b;
+  --offwhite: #DEE1E3; /*filter: invert(100%) sepia(1%) saturate(4960%) hue-rotate(173deg) brightness(89%) contrast(101%); */
+  
+  --orange-light: #ffbe73; /* filter: invert(88%) sepia(94%) saturate(1799%) hue-rotate(305deg) brightness(101%) contrast(101%);*/
+  --orange: #ff7f2d; /* filter: invert(55%) sepia(73%) saturate(1298%) hue-rotate(339deg) brightness(101%) contrast(102%); */
 }
