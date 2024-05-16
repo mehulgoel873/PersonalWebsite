@@ -61,6 +61,7 @@
 .experience .timeline-item {
 	display: flex;
 	gap: 24px;
+	width: 100%;
 }
 
 .experience .timeline-item+* {
@@ -120,7 +121,7 @@
 	border-radius: 6px;
 	padding: 16px;
 	font-weight: 600;
-
+	width: 100%;
 }
 
 .experience .card h1 {
@@ -188,6 +189,7 @@
 .experience .button:hover {
 	border-color: var(--orange) !important;
 	color: var(--orange) !important;
+	font-weight: 700;
 }
 
 .experience .button:hover .hover-orange {
