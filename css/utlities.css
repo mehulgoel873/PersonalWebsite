@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -105,4 +105,3 @@ footer p {
   font-weight: 700;
   color: var(--orange);
 }
-
