@@ -50,15 +50,13 @@
 
 #projects .card-container {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 #projects .card {
-    margin-right: 2vw;
-    width: max-content;
-    max-width: 650px;
-    height: auto;
+    flex: 0 1 calc(50% - 1em);
+    margin: 1em 0;
     background: #fff;
     border-radius: 1.5rem;
     padding: 1.5rem;
