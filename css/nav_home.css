@@ -14,7 +14,7 @@ nav {
     display: flex;
     height: 7rem;
     width: 100%;
-    background-color: rgba(215, 232, 186, 0.4);
+    background-color: rgba(215, 232, 186, 0.6);
     align-items: center;
     font-weight: bold;
 }
