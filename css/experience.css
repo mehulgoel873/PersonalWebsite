@@ -16,7 +16,6 @@
 	line-height: 1.5;
 	min-height: 100vh;
 	font-family: "Outfit", sans-serif;
-	padding-bottom: 20vh;
 }
 
 .experience:hover .section_header h1 {
@@ -103,6 +102,7 @@
 	overflow: hidden;
 	background-color: var(--background);
 	box-shadow: 0 0 0 8px var(--background);
+	margin-top: 24px;
 }
 
 .experience .timeline-item-icon img {
@@ -113,8 +113,6 @@
 }
 
 .experience .card {
-	margin-top: -24px;
-	margin-bottom: 36px;
 	color: var(--navy-blue-light);
 	border: 3px solid var(--navy-blue);
 	box-shadow: 0 4px 4px 0 var(--navy-blue-light);
