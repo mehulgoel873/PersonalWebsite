@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+#projects {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#projects * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+#projects *,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+#projects html {
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    #projects html {
+        font-size: 15px
+    }
+}
+
+@media screen and (max-width: 465px) {
+    #projects html {
+        font-size: 14px
+    }
+}
+
+#projects body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background: #f1f3f6;
+}
+
+#projects .card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#projects .card {
+    margin-right: 2vw;
+    width: max-content;
+    max-width: 650px;
+    height: auto;
+    background: #fff;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+#projects .card-img-holder {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#projects .card-img-holder img {
+    width: 100%;
+    height: auto;
+    max-height: 15rem;
+    object-fit: cover;
+    border-radius: 1.5rem;
+}
+
+#projects .blog-title {
+    color: #22215B;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+}
+
+#projects .description {
+    padding: 1rem 0;
+    color: #22215B80;
+    font-size: 1rem;
+}
+
+#projects .blog-time {
+    font-size: .8rem;
+    color: #22215B;
+}
+
+#projects .options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+#projects .options span {
+    font-weight: 600;
+    color: #22215B;
+}
+
+#projects .btn {
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    font-weight: 400;
+    background: #EEF7FE;
+    color: #22215B;
+    cursor: pointer;
+}
