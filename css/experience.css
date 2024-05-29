@@ -16,7 +16,6 @@
 	line-height: 1.5;
 	min-height: 100vh;
 	font-family: "Outfit", sans-serif;
-	padding-bottom: 20vh;
 }
 
 .experience:hover .section_header h1 {
@@ -84,11 +83,11 @@
 }
 
 .experience .timeline-item:hover .card .button .hover-orange {
-	filter: invert(88%) sepia(94%) saturate(1799%) hue-rotate(305deg) brightness(101%) contrast(101%);
+	filter: invert(60%) sepia(73%) saturate(1298%) hue-rotate(339deg) brightness(101%) contrast(102%);
 }
 
 .experience .timeline-item:hover .icon {
-	filter: invert(55%) sepia(73%) saturate(1298%) hue-rotate(339deg) brightness(101%) contrast(102%);
+	filter: invert(60%) sepia(73%) saturate(1298%) hue-rotate(339deg) brightness(101%) contrast(102%);
 }
 
 .experience .timeline-item-icon {
