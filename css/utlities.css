@@ -45,6 +45,8 @@ a {
   /*filter: invert(60%) sepia(64%) saturate(494%) hue-rotate(342deg) brightness(102%) contrast(101%);*/
   --orange: #ff7f2d;
   /* filter: invert(55%) sepia(73%) saturate(1298%) hue-rotate(339deg) brightness(101%) contrast(102%); */
+
+  --light-green: #d7e8ba;
 }
 
 ::-webkit-scrollbar {
@@ -90,3 +92,16 @@ a {
   width: max-content;
 
 }
+
+footer {
+  padding: 2vh 0vh;
+}
+
+footer p {
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+  color: var(--orange);
+}
+
