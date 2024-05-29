@@ -47,6 +47,8 @@ a {
   /* filter: invert(55%) sepia(73%) saturate(1298%) hue-rotate(339deg) brightness(101%) contrast(102%); */
 
   --light-green: #d7e8ba;
+  --green: #a1c181;
+  --dark-green: #5A6954;
 }
 
 ::-webkit-scrollbar {
