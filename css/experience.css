@@ -150,6 +150,10 @@
 	color: var(--offwhite);
 }
 
+.experience .card .simple {
+	display: none;
+}
+
 .experience a {
 	color: var(--background);
 }
@@ -197,4 +201,43 @@
 
 .experience .button:hover .icon {
 	filter: invert(55%) sepia(73%) saturate(1298%) hue-rotate(339deg) brightness(101%) contrast(102%);
+}
+
+@media (max-width: 1200px) {
+    .section_header h1 {
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+	}
+	
+	.experience .timeline {
+		width: 95%;
+		max-width: 90%;
+	}
+
+	.experience .card h1 {
+		font-size: 2.4rem;
+	}
+
+	.experience .card h2 {
+		font-size: 1.75rem;
+	}
+
+	.experience .card .detailed {
+		display: none;
+	}
+
+	.experience .card .simple {
+		font-size: 0.9rem;
+		display: block;
+	}
+
+	.experience .button {
+		margin-top: 0.75rem;
+		font-size: 1.75rem;
+	}
+
+	.experience .button img {
+		display: none;
+	}
 }

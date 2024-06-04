@@ -107,3 +107,9 @@ footer p {
   color: var(--orange);
 }
 
+@media (max-width: 1200px) {
+  footer p {
+    font-size: 1.75rem;
+  }
+  
+}
