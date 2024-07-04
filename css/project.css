@@ -98,7 +98,8 @@
 #projects .options {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: right;
+    gap: 5%;
     font-size: 1rem;
 }
 
@@ -116,3 +117,18 @@
     color: #22215B;
     cursor: pointer;
 }
+
+#projects ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    list-style-type: none;
+}
+
+#projects li {
+    padding: 0.3rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0.25rem;
+    font-size: 0.75rem;
+} 
