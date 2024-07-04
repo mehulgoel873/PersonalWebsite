@@ -46,7 +46,6 @@
 
 .experience .timeline {
 	width: 85%;
-	max-width: 70vw;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -203,12 +202,12 @@
 }
 
 @media (max-width: 1200px) {
-    .section_header h1 {
+	.section_header h1 {
 		margin-left: auto;
 		margin-right: auto;
 		left: 0;
 	}
-	
+
 	.experience .timeline {
 		width: 95%;
 		max-width: 90%;
