@@ -108,6 +108,13 @@
     background: rgba(0, 0, 0, 0.0);
 }
 
+#projects .btn:hover {
+    font-weight: 900;
+
+    border-color: var(--orange);
+    color: var(--orange);
+}
+
 #projects ul {
     display: flex;
     flex-wrap: wrap;
@@ -123,5 +130,11 @@
     color: var(--green);
 
     font-size: 0.75rem;
+    font-weight: 600;
+}
+
+#projects li:hover {
+    border-color: var(--orange);
+    color: var(--orange);
     font-weight: 900;
 }
