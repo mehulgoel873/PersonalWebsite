@@ -14,7 +14,7 @@ nav {
     display: flex;
     height: 7rem;
     width: 100%;
-    background-color: rgba(215, 232, 186, 0.6);
+    background-color: rgba(215, 232, 186, 0.7);
     align-items: center;
     font-weight: bold;
 }
@@ -143,6 +143,7 @@ nav .nav-links a:last-child:hover::before {
     line-height: 1;
     font-family: 'Righteous', cursive;
 }
+
 .text-wrapper p {
     font-size: 3.75vh;
     margin-top: 2vh;
@@ -234,12 +235,14 @@ nav .nav-links a:last-child:hover::before {
     .welcome-section {
         width: 100%;
     }
-    .image-wrapper{
+
+    .image-wrapper {
         display: block;
         margin: 0px 0px 0px 0px;
         height: max-content;
     }
-    .image-wrapper img{
+
+    .image-wrapper img {
         margin-left: auto;
         margin-right: auto;
         padding: 0;
@@ -251,7 +254,7 @@ nav .nav-links a:last-child:hover::before {
     .text-wrapper {
         width: max-content;
     }
-    
+
     .typing-container {
         display: none;
     }

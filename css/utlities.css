@@ -49,6 +49,7 @@ a {
   --light-green: #d7e8ba;
   --green: #a1c181;
   --dark-green: #5A6954;
+  --dark-green-transparent: rgba(91, 105, 84, 0.5);
 }
 
 ::-webkit-scrollbar {
@@ -110,5 +111,5 @@ footer p {
   footer p {
     font-size: 1.75rem;
   }
-  
+
 }
