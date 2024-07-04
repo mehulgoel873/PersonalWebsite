@@ -91,7 +91,7 @@
     display: flex;
     align-items: center;
     justify-content: right;
-    gap: 5%;
+    gap: 2%;
 }
 
 #projects .btn {
@@ -106,6 +106,7 @@
     border-radius: 12px;
     cursor: pointer;
     background: rgba(0, 0, 0, 0.0);
+    text-decoration: none;
 }
 
 #projects .btn:hover {
