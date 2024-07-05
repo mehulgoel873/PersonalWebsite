@@ -8,7 +8,6 @@
 
 
 #experience {
-	margin-top: 1.5rem;
 	scroll-behavior: smooth;
 	margin-left: auto;
 	margin-right: auto;
@@ -53,6 +52,7 @@
 	padding: 32px 0 32px 32px;
 	border-left: 4px solid var(--navy-blue);
 	font-size: 1.125rem;
+	margin-bottom: -3rem;
 }
 
 

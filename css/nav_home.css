@@ -14,9 +14,10 @@ nav {
     display: flex;
     height: 5rem;
     width: 100%;
-    background-color: rgba(215, 232, 186, 0.7);
+    background-color: var(--dark-green);
     align-items: center;
     font-weight: bold;
+    margin-bottom: 5rem;
 }
 
 nav .logo-container {
@@ -100,10 +101,10 @@ nav .nav-links a:last-child:hover::before {
 /* Styling for the welcome text and image */
 .welcome-section {
     text-align: center;
-    margin-top: 7rem;
-    padding: 4vh 0vh 4vh 0vh;
+    padding: 9rem 0vh 4vh 0vh;
     width: 100%;
     height: max-content;
+    margin-bottom: -4rem;
 }
 
 .image-wrapper {
