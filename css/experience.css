@@ -8,7 +8,11 @@
 
 
 #experience {
+	margin-top: 1.5rem;
 	scroll-behavior: smooth;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
 }
 
 /* Some basic CSS overrides */
@@ -18,9 +22,6 @@
 	font-family: "Outfit", sans-serif;
 }
 
-.experience:hover .section_header h1 {
-	color: var(--orange-light);
-}
 
 .experience button,
 .experience input,
@@ -45,8 +46,6 @@
 /* End basic CSS override */
 
 .experience .timeline {
-	width: 85%;
-	max-width: 70vw;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -102,6 +101,7 @@
 	overflow: hidden;
 	background-color: var(--background);
 	box-shadow: 0 0 0 8px var(--background);
+	margin-top: 24px;
 }
 
 .experience .timeline-item-icon img {
@@ -112,8 +112,6 @@
 }
 
 .experience .card {
-	margin-top: -24px;
-	margin-bottom: 36px;
 	color: var(--navy-blue-light);
 	border: 3px solid var(--navy-blue);
 	box-shadow: 0 4px 4px 0 var(--navy-blue-light);
@@ -204,12 +202,7 @@
 }
 
 @media (max-width: 1200px) {
-    .section_header h1 {
-		margin-left: auto;
-		margin-right: auto;
-		left: 0;
-	}
-	
+
 	.experience .timeline {
 		width: 95%;
 		max-width: 90%;
