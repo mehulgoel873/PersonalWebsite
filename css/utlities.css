@@ -104,6 +104,7 @@ footer p {
   margin-right: auto;
   font-weight: 700;
   color: var(--orange);
+  font-size: 1.25rem;
 }
 
 @media (max-width: 1200px) {

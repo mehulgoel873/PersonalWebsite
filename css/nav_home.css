@@ -12,7 +12,7 @@ nav {
     left: 0;
     z-index: 1;
     display: flex;
-    height: 7rem;
+    height: 5rem;
     width: 100%;
     background-color: rgba(215, 232, 186, 0.7);
     align-items: center;
@@ -26,7 +26,7 @@ nav .logo-container {
 }
 
 nav .logo-container img {
-    height: 6rem;
+    height: 4rem;
 }
 
 nav .nav-links {
@@ -38,7 +38,7 @@ nav .nav-links {
 
 nav .nav-links a {
     display: inline-block;
-    font-size: 3rem;
+    font-size: 2rem;
     text-decoration: none;
     color: var(--offwhite);
     padding: 20px 5px;
