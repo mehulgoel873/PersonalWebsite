@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -49,6 +49,7 @@ a {
   --light-green: #d7e8ba;
   --green: #a1c181;
   --dark-green: #5A6954;
+  --dark-green-transparent: rgba(91, 105, 84, 0.35);
 }
 
 ::-webkit-scrollbar {
@@ -87,11 +88,10 @@ a {
   text-decoration: underline;
 
   position: relative;
-  left: 15vw;
   margin: 0px;
-  margin-top: -2srem;
-  margin-bottom: 3rem;
+  margin-top: -2rem;
   width: max-content;
+  padding-top: 5rem;
 
 }
 
@@ -105,11 +105,18 @@ footer p {
   margin-right: auto;
   font-weight: 700;
   color: var(--orange);
+  font-size: 1.25rem;
 }
 
 @media (max-width: 1200px) {
   footer p {
     font-size: 1.75rem;
   }
-  
+
+  .section_header h1 {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+  }
+
 }

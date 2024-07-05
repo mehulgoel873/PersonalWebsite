@@ -9,6 +9,9 @@
 
 #experience {
 	scroll-behavior: smooth;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
 }
 
 /* Some basic CSS overrides */
@@ -18,9 +21,6 @@
 	font-family: "Outfit", sans-serif;
 }
 
-.experience:hover .section_header h1 {
-	color: var(--orange-light);
-}
 
 .experience button,
 .experience input,
@@ -45,8 +45,6 @@
 /* End basic CSS override */
 
 .experience .timeline {
-	width: 85%;
-	max-width: 70vw;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -54,6 +52,7 @@
 	padding: 32px 0 32px 32px;
 	border-left: 4px solid var(--navy-blue);
 	font-size: 1.125rem;
+	margin-bottom: -3rem;
 }
 
 
@@ -102,6 +101,7 @@
 	overflow: hidden;
 	background-color: var(--background);
 	box-shadow: 0 0 0 8px var(--background);
+	margin-top: 24px;
 }
 
 .experience .timeline-item-icon img {
@@ -112,8 +112,6 @@
 }
 
 .experience .card {
-	margin-top: -24px;
-	margin-bottom: 36px;
 	color: var(--navy-blue-light);
 	border: 3px solid var(--navy-blue);
 	box-shadow: 0 4px 4px 0 var(--navy-blue-light);
@@ -169,10 +167,10 @@
 	height: max-content;
 	padding: 4px 12px;
 
-	border: 5px solid var(--offwhite);
+	border: 5px solid var(--navy-blue);
 	border-radius: 15px;
 	background-color: var(--background);
-	color: var(--offwhite);
+	color: var(--navy-blue);
 	flex-shrink: 0;
 	cursor: pointer;
 
@@ -186,7 +184,7 @@
 	width: 1.5rem;
 	height: 1.5rem;
 	margin: 0px 16px 0px 8px;
-	filter: invert(100%) sepia(1%) saturate(4960%) hue-rotate(173deg) brightness(89%) contrast(101%);
+	filter: invert(54%) sepia(17%) saturate(958%) hue-rotate(160deg) brightness(90%) contrast(91%);
 }
 
 .experience .button:hover {
@@ -204,12 +202,7 @@
 }
 
 @media (max-width: 1200px) {
-    .section_header h1 {
-		margin-left: auto;
-		margin-right: auto;
-		left: 0;
-	}
-	
+
 	.experience .timeline {
 		width: 95%;
 		max-width: 90%;
