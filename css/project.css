@@ -122,6 +122,7 @@
     flex-wrap: wrap;
     gap: 2%;
     list-style-type: none;
+    font-family: "Source Code Pro", monospace;
 }
 
 #projects li {
