@@ -141,3 +141,9 @@
     color: var(--orange);
     font-weight: 900;
 }
+
+@media (max-width: 1200px) {
+    #projects .card {
+        flex: 0 1 calc(100% - 1em);
+    }
+}
